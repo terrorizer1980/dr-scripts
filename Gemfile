@@ -7,7 +7,7 @@ gem 'rake'
 
 group :test do
   gem 'minitest'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.15.0'
   gem 'simplecov'
   gem 'timecop'
 end
